@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+//import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { User } from '../../models/user.interface';
@@ -24,7 +24,7 @@ export class GithubServiceProvider {
 
   /*Finding the username from within USER_LIST, equal to the username passed in
   Returning the results as an Observable */
-  mockGetUserInformation(): Observable<User>{
+  mockGetUserInformation(username: string): Observable<User>{
     return Observable.of(USER_LIST.filter(user => user.name === username)[0]);
   }
 

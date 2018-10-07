@@ -15,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'profile-search.html',
 })
 export class ProfileSearchPage {
-  username: string = "PaulHalliday";
+  username: string = "Nurudin";
 
   constructor(private navCtrl: NavController, private navParams: NavParams) {
   }

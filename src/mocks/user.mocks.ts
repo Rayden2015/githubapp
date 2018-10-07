@@ -17,4 +17,6 @@ const userList: User[] = [
         avatar_url: 'string',
         email: 'string'
     }
-]
+];
+
+export const USER_LIST = userList;
