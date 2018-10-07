@@ -1,5 +1,6 @@
 {
   "name": "githubapp",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "pro_id": "4524ac5e"
 }
