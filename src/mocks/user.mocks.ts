@@ -5,7 +5,7 @@ const userList: User[] = [
         name: 'Nurudin',
         company: 'string',
         location: 'string',
-        bio: 'string',
+        bio: 'This is my bio This is my bioThis is my bioThis is my bioThis is my bioThis is my bioThis is my bio',
         avatar_url: 'string',
         email: 'string'
     },

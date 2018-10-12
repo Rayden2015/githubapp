@@ -19,6 +19,8 @@
   <ion-input type="text" [(ngModel)]="username"></ion-input>
 </ion-item>
 
+<button (click)="getUserInformation()" ion-button>Get user</button>
+
 <ion-fab bottom right>
   <button ion-fab>
     <ion-icon name="search" (click)="getUserInformation()"></ion-icon>

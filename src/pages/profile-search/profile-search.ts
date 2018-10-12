@@ -25,7 +25,8 @@ export class ProfileSearchPage {
   }
 
   getUserInformation():void{
-    console.log("getUserInformation Button Clicked");
-    this.navCtrl.push('ProfileSearchResultsPage');
+    console.log("getUserInformation function called");
+    this.navCtrl.push('ProfileSearchResultsPage',{username: this.username});
+    console.log("Username entered : "+this.username);
   }
 }
