@@ -36,10 +36,12 @@ export class ProfileSearchResultsPage {
     
   }
 
-  getUserInformation(): void{
-    this.github.getUserInformation(this.username).subscribe(data=> console.log(data));   
+  getUserInformation(){
     //this.github.mockGetUserInformation(this.username).subscribe(data=> console.log(data));   
-   
+    return this.github.getUserInformation(this.username).subscribe((data: User)=>{
+      console.log("User information : "+JSON.stringify(data));
+      this.user = data;
+     });
     
     // this.github.mockGetUserInformation(this.username).subscribe((data: User)=>{
     //     console.log("User information : "+JSON.stringify(data));

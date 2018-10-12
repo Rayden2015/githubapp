@@ -3,9 +3,13 @@
   <ion-avatar item-left>
     <img [src]="user.avatar_url" alt="">
   </ion-avatar>
-  <h2>{{user.name}}</h2>
+  <h2 primary>{{user.name}}</h2>
   <h3>{{user.company}}</h3>
+  <h3>{{user.email}}</h3>
   <p>{{user.location}}</p>
   <p text-wrap>{{user.bio}}</p>
+
+
+  {{user}}
   
 </ion-item>
